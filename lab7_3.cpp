@@ -16,9 +16,7 @@ int adiff(int A,int B) {
   }
   while(B < 0) {
     B = B + 360 ; 
-  }
-
-  
+  }  
   
   int max,min ;
   if(A >= B) {
@@ -40,10 +38,8 @@ int adiff(int A,int B) {
     C = -C ;
   }
   
-  cout << endl ;
   return C ;
 }
-
 
 
 int main(){
